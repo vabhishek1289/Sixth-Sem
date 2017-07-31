@@ -1,0 +1,46 @@
+Assignment_01
+Date Of Submission: 15-01-2016
+------------------------------------------------------
+Objective: To review the features (like pointer manipulation and file handling in C) of C language for programming at low-level. 
+ ------------------------------------------------------
+Q.1WAP in C to simulate a car parking system consisting of 5 parking lanes each having a capacity to park 5 cars. Cars arrive from one end and depart from the other.
+
+a) When a car arrives/departs, the input to the system is:
+	1) car registration no. 
+	2) arrival/departure time of car.
+b) On arrival: display the suitable parking slot for the car in a lane.
+c) On departure: update the system as required.
+	-->When a car in any lane leaves, all the cars parked behind are moved ahead to make space for the upcoming cars.
+	-->When a car ownwer wants to leave and his car isn't the first one in the lane then all the cars parked ahead of it are removed. After the departure of the respective car, all the cars are reparked in the same lane in the original order.
+
+Consider the parking space as given in the attached input file. 
+Display a menu having the following:
+	1.	Read input from the file dynamically for each time slot. (to get the current status of parking system).
+	1.	New Arrival of a car (to display the parking slot no. in the respective lane).
+	2.	Departure of the first car in the lane. 
+	3.	Departure of the cars other than the first one(the ones parked behind in the lane). In this display the parking slot of the car where it is parked currently.
+Make separate methods/functions for each choice.
+------------------------------------------------------
+Q.2 Write a c program to count the number of characters, words, lines, in a text file (take input in both ways: as command line argument, from a file).
+------------------------------------------------------
+Q.3 Use the attached file "numbers.txt" and write a C program to do the given tasks:
+
+1) Read the numbers from “numbers.txt” and write them into a new file named “numbers_1.txt” in which each line has only 10 numbers.
+2) Take a number from the user as input and search the file  “numbers_1.txt” to  see if that number exists in the file. If yes, print the line number and position of it in that line on which it occurs. If not, display: “Number does not exists in the file.”
+3) Replace the number searched previously  by incrementing the old number by 1, in “numbers_1.txt”.
+4) Delete the whole line from the file “numbers_1.txt” in which the replaced number occurs.
+5) Sort the remaining numbers of “numbers_1.txt” in ascending order using MERGE sort and write them into a new file “numbers_2.txt”.  
+6) Compare the files “numbers_1.txt” and “numbers_2.txt” line by line and print the different lines.
+------------------------------------------------------
+Q.4 Write a c program to count and display the operators, valid identifiers and keywords in the input text (Take input as command line argument).
+	Eg:	Input-->	int a,b,c;
+		Output-->	operators:	= 	1
+						,	2
+						;	1
+				keywords:	int 	1
+				Identifiers:	a	1
+						b	1
+						c	1
+------------------------------------------------------
+Learning outcome: Thorough understanding and application of required C language features.
+------------------------------------------------------

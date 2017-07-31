@@ -1,0 +1,8 @@
+#include<stdio.h>
+//this is a commment
+printf("hello world");
+/*
+This is 
+a multiline
+comment*/
+printf("EXIT");
